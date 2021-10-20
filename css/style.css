@@ -1,5 +1,5 @@
 html{
-  width: 1000px;
+  width: 1500px;
   height: auto;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -265,8 +265,9 @@ li a{
 }
 
 .table{
-  width: 100%;
-  margin: 48px 20%;
+  width: 80%;
+  margin: 48px auto 48px 20%;
+  background: red;
 }
 .table-title{
   margin: 40px auto;
@@ -282,9 +283,6 @@ li a{
 table,tr,th,td{
   border: 1px solid black;
 }
-table{
-  width: 60%;
-}
 th,td{
   text-align: left;
   padding: 16px;
@@ -292,6 +290,9 @@ th,td{
 }
 th{
   background-color: #f1f1f1;
+}
+td{
+  padding-right: 400px;
 }
 
 .img-zone{
