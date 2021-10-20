@@ -1,3 +1,12 @@
+html{
+  width: 1000px;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -40,9 +49,6 @@ li a{
   color: 	#C71585;
   margin-bottom: 60px;
   line-height: 100px;
-  /* position: absolute;
-  top: 20%;
-  left: 15%; */
 }
 .h1-span{
   color: #20B2AA;
@@ -66,26 +72,27 @@ li a{
   margin-bottom: 64px;
 }
 .news-title{
-  width: 50%;
+  width: 60%;
   font-size: 24px;
   font-weight: bold;
   border-bottom: solid 1px 	#787c80;
-  margin: 0 25%;
+  margin: 0 20%;
   padding: 0 0 24px 0;
 }
 .news-items{
   display: flex;
-  width: 50%;
+  width: 60%;
   margin: 16px auto;
   padding: 8px;
   border-bottom: solid 1px #d4d4d4;
 }
-.news-items p {
+.news-items p{
   margin-right: 16px;
 }
 .news-color{
   color: #fff;
-  padding: 2px 8px;
+  width: auto;
+  padding: 4px 16px;
   border-radius: 20px;
   background: #C71585;
 }
@@ -236,12 +243,13 @@ li a{
 .blog-tag{
   display: flex;
   justify-content: space-between;
+  font-size: 8px;
 }
 .date{
-  margin: 24px auto 16px 5%;
+  margin: 24px auto 16px 10%;
 }
 .tag-item{
-  margin: 24px 5% 16px auto;
+  margin: 24px 10% 16px auto;
 }
 .blog-btn{
   width: 15%;
@@ -332,12 +340,18 @@ th{
   font-size: 16px;
   color: #808080;
 }
-.input-text{
+.line{
+  border-right: solid 1px red;
+  width: 50%;
+  height: 32px;
+  margin: 16px 0;
+}
+/* .input-text{
   margin:  16px auto;
   height: 40px;
   border: none;
   caret-color: pink;
-}
+} */
 .form-btn a{
   position: relative;
   background: linear-gradient(90deg,rgb(255, 136, 156),rgb(255, 0, 55));
